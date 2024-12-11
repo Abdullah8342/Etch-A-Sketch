@@ -29,7 +29,6 @@ function Grid(NumberOfGrid) {
     for(let x = 0;x < NumberOfGrid;x++) {
         let div = document.createElement('div');
         container.appendChild(div);
-        div.textContent = x;
         div.style.width = `${widthOfBox}px`;
         div.style.height = `${heightOfBox}px`;
         div.style.border = '1px solid black';
